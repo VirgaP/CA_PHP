@@ -1,0 +1,76 @@
+ <!doctype html>
+<html>
+	<head>
+		<style>
+		.chart {
+			height:900px;
+			width: 800px;
+			position: relative; height:20vh; width:50vw
+		}
+		</style>
+	</head>
+	<body>
+ 
+ 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+		<div class="chart"><canvas id="myChart" width="500" height="500"></canvas></div>
+	
+		<script>
+		var label_name = [];
+		var data_number = [];
+		   
+	    function loadPlayers(){
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', 'results20.json', true);
+		
+		xhr.onload = function(){
+		  if(this.status == 200){
+		    var players = JSON.parse(this.responseText);
+		    console.log(players);
+	
+	    for(var i = 0; i < 20; i++){
+	      data_number.push(players[i].Rating);
+	      label_name.push(players[i].Name);
+	    }
+
+    console.log(data_number);
+    var ctx = document.getElementById("myChart").getContext('2d');
+	
+	var myChart = new Chart(ctx, {
+	    type: 'bar',
+	    data: {
+	        labels: label_name,
+	        datasets: [{
+	            label: 'Top 20 players',
+	            data: data_number,
+	            backgroundColor: [
+	                'rgba(255, 99, 132, 0.2)',
+	            ],
+	            borderColor: [
+	                'rgba(255,99,132,1)',
+	            ],
+	            borderWidth: 1
+	        }]
+	    },
+    	options: {
+        	scales: {
+            	yAxes: [{
+                	ticks: {
+                    	beginAtZero:true
+                }
+            }]
+        }
+    	}
+	})
+  }
+}
+
+xhr.send()};
+
+loadPlayers();
+   
+
+</script>
+
+
+    </body>
+  </html>
