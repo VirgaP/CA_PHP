@@ -1,0 +1,102 @@
+﻿[
+ {
+   "Number": 1,
+   "Name": "Laura Tomkevičienė",
+   "Rating": 365.51
+ },
+ {
+   "Number": 2,
+   "Name": "Matas Levanas",
+   "Rating": 346.74
+ },
+ {
+   "Number": 3,
+   "Name": "Sigita Klimavičiūtė",
+   "Rating": 311.87
+ },
+ {
+   "Number": 4,
+   "Name": "Algimantas Ramoška",
+   "Rating": 307.28
+ },
+ {
+   "Number": 5,
+   "Name": "Dainius Ulkė",
+   "Rating": 305.84
+ },
+ {
+   "Number": 6,
+   "Name": "Marius Graževičius",
+   "Rating": 305.7
+ },
+ {
+   "Number": 7,
+   "Name": "Vidas Žeronas",
+   "Rating": 283.96
+ },
+ {
+   "Number": 8,
+   "Name": "Marius Plyčius",
+   "Rating": 266.16
+ },
+ {
+   "Number": 9,
+   "Name": "Kęstutis Viselga",
+   "Rating": 249.1
+ },
+ {
+   "Number": 10,
+   "Name": "Paulina Rimkutė",
+   "Rating": 247.51
+ },
+ {
+   "Number": 11,
+   "Name": "Klaidas Kalinkinas",
+   "Rating": 246.26
+ },
+ {
+   "Number": 12,
+   "Name": "Laurynas Jurkus",
+   "Rating": 241.88
+ },
+ {
+   "Number": 13,
+   "Name": "Vladas Strioga",
+   "Rating": 240.43
+ },
+ {
+   "Number": 14,
+   "Name": "Simonas Pocius",
+   "Rating": 235.38
+ },
+ {
+   "Number": 15,
+   "Name": "Svajūnė Vadopalaitė",
+   "Rating": 233.36
+ },
+ {
+   "Number": 16,
+   "Name": "Milgedas Sinius",
+   "Rating": 231.49
+ },
+ {
+   "Number": 17,
+   "Name": "Tadas Šerepėka",
+   "Rating": 229.51
+ },
+ {
+   "Number": 18,
+   "Name": "Ramūnas Peleckas",
+   "Rating": 229.1
+ },
+ {
+   "Number": 19,
+   "Name": "Laimutis Kukauskas",
+   "Rating": 226.83
+ },
+ {
+   "Number": 20,
+   "Name": "Audrius Kalašnikovas",
+   "Rating": 213.87
+ }
+]
